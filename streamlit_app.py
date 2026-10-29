@@ -37,12 +37,7 @@ except ImportError:
 
 # ── Configurazione pagina ──────────────────────────────────────────────────────
 st.set_page_config(layout="wide", page_title="GUI Grafici", page_icon="📊")
-_title_col, _link_col = st.columns([5, 1])
-with _title_col:
-    st.title("📊 GUI Grafici")
-with _link_col:
-    st.link_button("🎬 Pipeline Video", "http://localhost:8502",
-                   use_container_width=True, help="Deve essere già avviata separatamente.")
+st.title("📊 GUI Grafici")
 
 # ── Session state ──────────────────────────────────────────────────────────────
 _defaults = {"df": None, "col_roles": {}, "fig": None, "last_chart_pkg": None}
