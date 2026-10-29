@@ -1,0 +1,12 @@
+.venv*/
+venv*/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+streamlit_log.txt
+*.xlsx
+*.xls
+*.csv
+xGUI/cap_ita.geojson
+.streamlit/secrets.toml
